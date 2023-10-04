@@ -10,6 +10,11 @@ const router = createRouter({
             component: Accueil,
             name: 'Accueil',
         },
+        {
+            path: '/facebook-translucent',
+            component: FacebookTranslucent,
+            name: 'FacebookTranslucent',
+        },
     ],
 });
 
